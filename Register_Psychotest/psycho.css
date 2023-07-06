@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+    font-family: 'Poppins';
+}
+
+.psycard-regis{
+    width: 694px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--text-cons, #FFF);
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+    z-index: 10;
+    position: relative;
+    padding-left: 56px;
+    padding-top: 50px;
+}
+
+.psytext{
+    height:520px;
+    width: 451px; 
+    position: relative;
+}
+
+.psytext-center{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.psytext-title-format{
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.psytext-sub-format{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.psycard-input-text{
+    color: #1E1E1E;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.redstar{
+    color: #ce5959;
+}
+
+.margin-field{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.daftar-button{
+    width: 239px;
+    height: 48px;
+    border: 1px solid;
+    background: #F9A215;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    margin-top: 38px;
+}
+
+.circle{
+    width: 611px;
+    height: 567px;
+    flex-shrink: 0;
+    border-radius: 611px;
+    background: radial-gradient(57.54% 59.45% at 37.73% 42.09%, rgba(241, 179, 58, 0.09) 0%, rgba(253, 176, 60, 0.68) 100%);
+    filter: blur(175px);
+    display: flex;
+    z-index: -10;
+    position: absolute;
+    transform: translate(100%,27%);
+}
+
+.arda{
+    color:#F9A215;
+}
+
+.button-triad{
+    width: 1240px;
+    margin: auto;
+    margin-top: 117px;
+}
+
+.centering-main-content{
+    width: 1240px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.extra-button{
+    width: 43px;
+    height: 43px;
+}
+
+.extra-button{
+    margin-right: 15px;
+}
+
+.button-circle{
+    border-radius: 22px;
+    background-color: #ffedcf;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.first img{
+    margin-right: 10px;
+}
+
+.login{
+    padding: 0 40px 0 40px;
+    background-color: #F9A215;
+    border-radius: 5px;
+}
+
+.login a{
+    color: white;
+}
